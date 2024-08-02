@@ -1,0 +1,12 @@
+nav {
+    background-color: rgb(153, 189, 221);
+}
+
+div {
+    padding: 5px;
+}
+
+#titletext {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
