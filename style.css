@@ -1,20 +1,26 @@
 
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: rgb(34, 37, 41);
+    background-color: rgb(22, 24, 27);
 }
 
 nav {
+    position: fixed;
+    left: 0em;
+    right: 0em;
+    top: 0em;
     background-color: rgb(28, 28, 31);
     overflow: hidden;
+    box-shadow: 0em 0em 0.65em 0em rgb(0, 0, 0);
 }
 
 div {
-    padding: 15px;
+    padding: 1em;
 }
 
-p {
+h2 {
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: xx-large;
@@ -23,13 +29,40 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+    size-adjust: 200px;
+    display: inline;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#block {
+    align-self: center;
+    min-height: 83vh;
+    padding-top: 8em;
+    margin: 0em 15% 0em 15%;
+    box-shadow: 0em 0em 0.65em 0em rgba(0, 0, 0, 0.39);
+    border: solid 0.25em rgb(15, 15, 19);
+    background-color: rgb(34, 37, 41);
+    overflow: hidden;
+}
+
+#homephoto {
+    border-radius: 10px;
+    float: left;
+    margin: 0em 1em 1em 0em;
+    height: 12em;
+}
+
 #mainnav {
     padding-top: 0px;
     text-align: center;
 }
 
 a {
-    padding: 0px 15px;
+    padding: 0px 2em;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
