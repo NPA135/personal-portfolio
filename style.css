@@ -56,7 +56,7 @@ p {
     overflow: hidden;
 }
 
-h1 {
+.lefttitle {
     padding: 15px;
     margin: 2em 0em 0em 0em;
     color: rgb(255, 255, 255);
@@ -66,13 +66,13 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.homesubtitle {
+.righttitle {
     padding: 15px;
-    margin-top: 5em;
+    margin: 2em 0em 0em 0em;
     color: rgb(255, 255, 255);
-    font-size: 1em;
-    text-align: left;
-    font-weight: 450;
+    font-size: 5em;
+    text-align: right;
+    font-weight: 550;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -102,4 +102,34 @@ h1 {
     background-color: rgb(28, 28, 31);
     overflow: hidden;
     box-shadow: 0em 0em 0.65em 0em rgb(0, 0, 0);
+}
+
+#aphotoa, #aphotoc {
+    border-radius: 500px;
+    float: left;
+    margin: 2.5em 0em 0em 3em;
+    height: 30em;
+}
+
+#aphotob {
+    border-radius: 500px;
+    float: right;
+    margin: 2.5em 0em 0em 3em;
+    height: 30em;
+}
+
+.bbox {
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.abox {
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
