@@ -23,16 +23,28 @@
             </div>
         </section>
     </nav>
-
+        
     <main>
-        <section>
+        <section> 
             <div id="block">
-                <img id="homephoto" src="assets/codeimg.png" alt="Image Test">
-                <h1 class="lefttitle">Hello, I'm <br> Noah Acierto.</h1>
-                <p class="homebox">
-                    I'm currently a tech student studying for web development and software engineering
-                    with the hopes of breaking into the tech industry.
-                </p>
+                <h1>Want to contact me?</h1>
+                <p id="centertext">Use the submission form below to send in your contact information.</p>
+
+                <div id="farea">
+                    <form id="form" action="./success.html">
+
+                        <label for="subname">Name:</label><br>
+                        <input type="text"> <br>
+
+                        <label for="submail">Email:</label><br>
+                        <input type="email"> <br>
+
+                        <label for="submsg">Message:</label><br>
+                        <textarea name="submsg" cols="15" rows="10"></textarea><br>
+
+                        <input id="submit" type="submit" value="Submit" />
+                    </form>
+                </div>
             </div>
         </section>
     </main>

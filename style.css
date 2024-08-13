@@ -1,5 +1,6 @@
 
 body {
+    flex: auto;
     margin: 0;
     padding: 0;
     background-color: rgb(22, 24, 27);
@@ -149,4 +150,49 @@ h1 {
     text-align: right;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#centertext {
+    text-align: center;
+}
+
+#farea {
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 2em 15% 2em 15%;
+    min-height: 20em;
+    overflow: hidden;
+}
+
+form, textarea, input {
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+textarea, input{
+    margin: 1em;
+    border-radius: 25px;
+    border: 0px;
+    padding: 5px;
+    width: 25vh;
+}
+
+input {
+    height: 2vh;
+}
+
+#submit {
+    padding: 0px 2em;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+#submit:hover {
+    transition: 0.3s ease 0s;
+    background-color: rgb(99, 171, 219);
 }
